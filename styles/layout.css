@@ -1,0 +1,40 @@
+.blank-box, .checked-box, .blank-radio, .checked-radio, .up-triangle, .down-triangle {
+  background-image: url('sprites/form-elements-sprite.png');
+  background-repeat: no-repeat;
+}
+
+.blank-box {
+  background: url('sprites/form-elements-sprite.png') no-repeat -158px -239px;
+	width: 161px;
+	height: 160px;
+}
+
+.checked-box {
+  background: url('sprites/form-elements-sprite.png') no-repeat -381px -239px;
+	width: 161px;
+	height: 160px;
+}
+
+.blank-radio {
+  background: url('sprites/form-elements-sprite.png') no-repeat -582px -242px;
+	width: 167px;
+	height: 166px;
+}
+
+.checked-radio {
+  background: url('sprites/form-elements-sprite.png') no-repeat -812px -242px;
+	width: 168px;
+	height: 166px;
+}
+
+.up-triangle {
+  background: url('sprites/form-elements-sprite.png') no-repeat -1035px -280px;
+	width: 77px;
+	height: 77px;
+}
+
+.down-triangle {
+  background: url('sprites/form-elements-sprite.png') no-repeat -1143px -280px;
+	width: 76px;
+	height: 77px;
+}
